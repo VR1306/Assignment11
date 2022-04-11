@@ -1,0 +1,77 @@
+.backs{
+    background-color: rgba(241,245,248,255);
+}
+.titles{
+    font-family:  -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #102A42;
+    font-weight:bolder;
+    letter-spacing: .1rem;
+}
+
+.prices{
+    font-family: 'Times New Roman', Times, serif;
+}
+.colors{
+    color: rgba(188,157,128,255);
+    font-weight:bolder;
+}
+.text{
+    font-size:0.9cm;
+    font-weight: bolder;
+    color: #102A42;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line{
+    width: 20%;
+    
+}
+.alltext{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:1rem;
+    font-size: 0.6cm;
+}
+.underline{
+    width: 10rem;
+    height: 0.30rem;
+    border-bottom:solid  ;
+  color:  #c59d5f ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menusel{
+    color: #c59d5f; 
+    font-size: 0.5cm;
+    cursor:-webkit-grab;
+}
+.menusel :hover{
+  
+    color: aliceblue;
+    border-radius: 10%;
+    background-color: #c59d5f; 
+}
+.bordimg{
+    border:0.25rem solid;
+    color:  #c59d5f; 
+}
+.desx{
+  color: #7f94ac;
+}
+.textyunder{
+    border-bottom: #c59d5f dotted;
+    width: 16.5rem;
+    height: 0.25rem;
+}
+@media only screen and (max-width: 600px) {
+    .textyunder {
+        border-bottom: #c59d5f dotted;
+        width: 24rem;
+        height: 0.25rem;
+    }
+    .bordimg{
+        width: 100%;
+        height:200;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+  }
