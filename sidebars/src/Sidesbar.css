@@ -1,0 +1,35 @@
+.heart{
+	animation: beat 0.59s infinite alternate;
+}
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+
+.textyy{
+	text-shadow: 2px 2px 5px rgb(177, 169, 169);
+}
+
+.a:hover{
+	  color: blue!important;
+	  background-color:rgb(217, 255, 242)
+	  
+  }
+
+  .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.texty{
+	font-family: 'Times New Roman', Times, serif;
+	color: tomato;
+	font-weight: 900;
+	font-size: 0.7cm;
+	text-align: center;
+	
+}
+/* .textyy{
+	font-size: 1.5cm;
+	font-weight: 400;
+} */
